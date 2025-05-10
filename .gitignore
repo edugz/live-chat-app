@@ -1,0 +1,11 @@
+# Node
+node_modules/
+.env
+
+# Vite
+dist/
+.vite/
+
+# System
+.DS_Store
+*.log
