@@ -64,5 +64,5 @@ cd client
 npm run dev
 ```
 
-Then open your browser at specified url
+Then open your browser at specified url <br>
 Open it in multiple tabs to simulate multiple users chatting in the same room.
