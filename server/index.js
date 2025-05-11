@@ -52,6 +52,7 @@ io.on("connection", (socket) => {
   });
 });
 
-server.listen(3001, () => {
-  console.log("Server is running on port 3001");
+const port = process.env.PORT || 3001; // Default to 3001 for local, use environment variable for cloud
+server.listen(port, () => {
+  console.log(`Server is running on port ${port}`);
 });
