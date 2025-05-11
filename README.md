@@ -26,33 +26,43 @@ A simple real-time chat application built with React and Node.js using WebSocket
 ### 1. Clone the repo
 
 ```bash
+
 git clone https://github.com/yourusername/live-chat-app.git
 cd live-chat-app
+```
 
 ### 2. Install dependencies
 
 **For the backend**
+
 ```bash
 cd server
 npm install
+```
 
 **For the frontend**
+
 ```bash
 cd ../client
 npm install
+```
 
 ### 3. Running the App Locally
 
 **Start the backend**
+
 ```bash
 cd ../server
 node index.js
+```
 
 **Start the frontend**
 Open a new terminal
+
 ```bash
 cd client
 npm run dev
+```
 
 Then open your browser at specified url
 Open it in multiple tabs to simulate multiple users chatting in the same room.
