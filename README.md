@@ -56,7 +56,7 @@ cd ../server
 node index.js
 ```
 
-**Start the frontend**
+**Start the frontend** <br>
 Open a new terminal
 
 ```bash
